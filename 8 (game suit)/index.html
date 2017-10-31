@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Belajar angularJS</title>
+  <script src="angular.min.js"></script>
+  <script src="controller.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body ng-app='suit'>
+  <div id='batas' ng-controller='kontroller'>
+    <img id="gambar" src={{gambar}}>
+    <b id="saya">{{acak}}</b>
+    <button id={{toogle}} ng-click='gabung()'>{{tanda}}</button>
+    <img id="gambars" src={{gambars}}>
+    <b id="lawan">{{acaks}}</b>
+    <br>
+    <center>
+      <b id="hasil">{{hasil}}</b>
+    </center>
+  </div>
+</body>
+</html>

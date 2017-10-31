@@ -1,0 +1,91 @@
+/*format tag html <html>*/
+html {
+  background: #2E9EFF;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+/*format id top <b id="top">*/
+#top {
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  padding: 30px;
+  box-sizing: border-box;
+}
+/*format tag form <form...*/
+form {
+  background: white;
+  width: 400px;
+  height: 250px;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*format id judul <b id='judul'...*/
+#judul {
+  font-size: 18px;
+  color: rgb(12, 87, 33);
+  top: 100px;
+  display: block;
+  text-align: center;
+}
+/*format class input <input class="input"...*/
+.input {
+  width: 90%;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background: #F6F6F6;
+  border: 0;
+}
+/*format tag i <i>*/
+i {
+  color: blue;
+  font-weight: bold;
+}
+/*format class valid <b class="valid">*/
+.valid {
+  float: right;
+  font-weight: normal;
+  margin-right: 5%;
+  color: red;
+}
+/*format id ceksbox <input id='ceksbox'...*/
+#ceksbox {
+  margin-left: 10px;;
+}
+/*format id sp <b id='sp'...*/
+#sp {
+  font-weight: normal;
+  color: green
+}
+/*format id reset <input id="reset"...*/
+#reset {
+  margin-top: 10px;
+  margin-left: 5%;
+  padding: 10px;
+  border: 2px solid white;
+  font-weight: bold;
+  box-sizing: border-box;
+  width: 45%;
+}
+/*format id submit <input id="submit"...*/
+#submit {
+  float: right;
+  margin-top: 10px;
+  margin-right: 5%;
+  width: 45%;
+  border: 2px solid white;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding: 10px;
+  background: #2E9EFF;
+}
+#submit:hover {
+  border: 2px blue solid;
+}
+#reset:hover {
+  border: 2px orange solid;
+}

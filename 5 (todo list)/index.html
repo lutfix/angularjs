@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app='todo'>
+<head>
+  <title>Belajar angularJS</title>
+  <script src="angular.min.js"></script>
+  <script src="controller.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body ng-controller='cl'>
+  <center class="apps">
+    <div class="atas">
+      <b>MANAJEMEN KEGIATAN</b>
+      <br>
+      <i>TODO LIST</i>
+    </div>
+    <br>
+    <input type="text" ng-model='masukan' id="teks" placeholder="Ketikkan kegiatan, kemudian tekan 'tambah'">
+    <br>
+    <b id="total">Total kegiatan : {{jumlah}}</b>
+    <button id='tombol' ng-click='daftarkan()'>Tambah</button>
+    <br>
+    <li ng-repeat='df in daftar as daftars'>
+      <input type="checkbox">
+      <b id="kegiatan">{{df}}</b>
+      <button class='tombol' ng-click='hapus($index)'>x</button>
+      <br>
+      <hr>
+    </li>
+    </div>
+  </center>
+</body>
+</html>

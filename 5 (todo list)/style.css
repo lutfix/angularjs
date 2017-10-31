@@ -1,0 +1,79 @@
+/*mengatur class apps <center class='apps'>*/
+.apps {
+width: 500px;
+height: 100%;
+position: absolute;
+box-sizing: border-box;;
+background: rgb(213, 239, 246);
+}
+/*mengatur class atas <div class="atas">*/
+.atas {
+  background: brown;
+  padding: 10px;
+}
+/*mengatur tag <b> yang berada didalam class atas*/
+.atas > b {
+  font-size: 24px;
+  color: white;
+}
+/*mengatur tag <i> yang berada didalam class atas*/
+.atas > i {
+  font-size: 12px;
+  color: orange;
+}
+/*mengatur id teks <input type="text"  id="teks"...*/
+#teks {
+  height: 40px;
+  width: 80%;
+  font-size: 18px;
+}
+/*mengatur id total <b id="total">*/
+#total {
+  margin: 5px;
+  float: left;
+  margin-left: 10%;
+  height: 30px;
+  margin-top: 10px;
+}
+/*mengatur id tombol <button id='tombol'...*/
+#tombol {
+  margin: 5px;
+  float: right;
+  margin-right: 10%;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 3px;
+  border: 0;
+  background: rgb(46, 94, 176);
+  color: yellow;
+}
+/*mengatur tag li <li>*/
+li {
+  list-style: none;
+  float: left;
+  font-size: 16px;
+  margin-top: 30px;
+  width: 100%;
+}
+/*mengatur tag input <input type... yang berada pada tag li*/
+li > input {
+  float: left;
+  margin-left: 5%;
+}
+/*mengatur tag button <button class... yang berada pada tag li*/
+li > button {
+  float: right;
+  border-radius: 50px;
+  background: red;
+  color: yellow;
+  border: 1px solid brown;
+  margin-right: 5%;
+}
+/*mengatur id kegiatan <b id="kegiatan">*/
+#kegiatan {
+  float: left;
+}
+/*mengatur tag hr <hr>*/
+hr {
+  margin-left: 0;
+}

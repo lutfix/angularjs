@@ -1,0 +1,50 @@
+/*format pada id batas <div id='batas'...*/
+#batas {
+  background: orange;
+  height: 250px;
+  width: 300px;
+  padding: 20px;
+}
+/*format pada tag button <button>*/
+button {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  position: absolute;
+  top: 250px;
+  margin-left: 100px;
+}
+/*format pada id saya <b id="saya"...*/
+#saya {
+  position: absolute;
+  margin-left: 0;
+  margin-top: 100px;
+}
+/*format pada id lawan <b id="lawan"...*/
+#lawan {
+  position: relative;
+  float: right;
+  margin-top: 100px;
+}
+/*format pada id gambar <img id="gambar"...*/
+#gambar {
+  position: absolute;
+  margin-left: 0;
+  width: 50px;
+  height: 50px;
+}
+/*format pada id gambars <img id="gambars"...*/
+#gambars {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-left: 250px;
+  margin-top: 0;
+}
+/*format pada id hasil <b id="hasil"...*/
+#hasil {
+  position: absolute;
+  margin-top: 160px;
+  font-size: 30px;
+  margin-left:-40px;
+}

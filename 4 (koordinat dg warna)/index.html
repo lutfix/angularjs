@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Belajar angularJS</title>
+  <script src="angular.min.js"></script>
+  <script src="controller.js"></script>
+</head>
+<body>
+  <div ng-app='belajar' ng-controller='operasi'>
+    <div style="height: 200px; width:300px" ng-mousemove="letak($event)">
+      <div style="height:100%;width:100px;background:red;float:left"></div>
+      <div style="height:100%;width:100px;background:green;float:left"></div>
+      <div style="height:100%;width:100px;background:blue;float:left"></div>
+    </div>
+    <p>nilai x = {{x}}
+      <br>nilai y = {{y}}
+      <br>warna = {{warna}}</p>
+  </div>
+</body>
+</html>

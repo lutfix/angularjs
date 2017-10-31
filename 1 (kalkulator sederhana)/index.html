@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Belajar AngularJS</title>
+  <script src="angular.min.js"></script>
+</head>
+<body ng-app>
+  kelipatan berapa? <br><br><input type="number" ng-model="kelipatan" ng-init='kelipatan=1' placeholder="ketik disini"><br><br>
+  <button ng-click="jumlah = jumlah + kelipatan">Klik Disini</button>
+  <button ng-click="jumlah = 0;kelipatan = 1">Reset</button><br>
+  <h1>Hasilnya : {{jumlah}}</h1>
+</body>
+</html>
